@@ -22,6 +22,7 @@
     </properties>
 
     <build>
+        <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
@@ -42,7 +43,12 @@
                         <goals>install</goals>
                     </configuration>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-scm-plugin</artifactId>
+                </plugin>
             </plugins>
+        </pluginManagement>
     </build>
 
     <scm>
