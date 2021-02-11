@@ -1,0 +1,63 @@
+[33mcommit 60536bdba117215132d3e19bd2dfa66ff2c81e06[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Mario J. Kofler <mario.j.kofler@runbox.com>
+Date:   Wed Feb 10 16:57:21 2021 +0100
+
+    [maven-release-plugin] prepare for next development iteration
+
+[1mdiff --git a/pet-clinic-data/pom.xml b/pet-clinic-data/pom.xml[m
+[1mindex b0f0b55..60137c7 100644[m
+[1m--- a/pet-clinic-data/pom.xml[m
+[1m+++ b/pet-clinic-data/pom.xml[m
+[36m@@ -3,7 +3,7 @@[m
+     <parent>[m
+         <artifactId>sfg-pet-clinic</artifactId>[m
+         <groupId>guru.springframework</groupId>[m
+[31m-        <version>0.0.12</version>[m
+[32m+[m[32m        <version>0.0.13-SNAPSHOT</version>[m
+     </parent>[m
+     <modelVersion>4.0.0</modelVersion>[m
+ [m
+[1mdiff --git a/pet-clinic-web/pom.xml b/pet-clinic-web/pom.xml[m
+[1mindex 375d60b..4cbb76e 100644[m
+[1m--- a/pet-clinic-web/pom.xml[m
+[1m+++ b/pet-clinic-web/pom.xml[m
+[36m@@ -3,7 +3,7 @@[m
+     <parent>[m
+         <artifactId>sfg-pet-clinic</artifactId>[m
+         <groupId>guru.springframework</groupId>[m
+[31m-        <version>0.0.12</version>[m
+[32m+[m[32m        <version>0.0.13-SNAPSHOT</version>[m
+     </parent>[m
+     <modelVersion>4.0.0</modelVersion>[m
+ [m
+[36m@@ -18,7 +18,7 @@[m
+         <dependency>[m
+             <artifactId>pet-clinic-data</artifactId>[m
+             <groupId>guru.springframework</groupId>[m
+[31m-            <version>0.0.12</version>[m
+[32m+[m[32m            <version>0.0.13-SNAPSHOT</version>[m
+         </dependency>[m
+         <dependency>[m
+             <groupId>org.springframework.boot</groupId>[m
+[1mdiff --git a/pom.xml b/pom.xml[m
+[1mindex bb10e7d..dc0461e 100644[m
+[1m--- a/pom.xml[m
+[1m+++ b/pom.xml[m
+[36m@@ -14,7 +14,7 @@[m
+     </parent>[m
+     <groupId>guru.springframework</groupId>[m
+     <artifactId>sfg-pet-clinic</artifactId>[m
+[31m-    <version>0.0.12</version>[m
+[32m+[m[32m    <version>0.0.13-SNAPSHOT</version>[m
+     <name>sfg-pet-clinic</name>[m
+     <description>SFG Pet Clinic</description>[m
+     <properties>[m
+[36m@@ -50,7 +50,7 @@[m
+ [m
+     <scm>[m
+         <developerConnection>scm:git:git@github.com:mariojkofler/sfg-pet-clinic.git</developerConnection>[m
+[31m-         <tag>sfg-pet-clinic-0.0.12</tag>[m
+[32m+[m[32m         <tag>HEAD</tag>[m
+     </scm>[m
+ [m
+ </project>[m
